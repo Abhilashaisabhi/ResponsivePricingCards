@@ -1,0 +1,57 @@
+/* CSS Of the Project */
+.container{
+    text-align: center;
+    
+}
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+}
+h3{
+    font-weight: bolder;
+    padding: 53px 20px;
+   text-align: center;
+    background-color:aliceblue;
+}
+h5{
+    font-weight: 700;
+    padding: 6px 6px;
+}
+.card {
+    
+         
+    border: 2px solid orange;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-top{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.card-link{
+    text-decoration: none;
+    
+}
+.slick-slide{
+    padding: 10px;
+    background-color: #FFA500;
+}
+@media only screen and (max-width: 600px) {
+    .card-body {
+        padding: 0;
+        margin: 0;
+        
+    }
+  
+    .slick-dots{
+        background-color:  #FFA500;
+     }
+     
+  }
+  
+ 
